@@ -57,6 +57,9 @@ public class Main {
             System.out.println();
         }
 
+        System.out.println("Cartets restantes: " + cartes.size());
+        //System.out.println(cartes);
+
     }
 
     private static void createCouleursList() {
@@ -92,12 +95,25 @@ public class Main {
             Joueur joueur2 = new Joueur("Bob");
             Joueur joueur3 = new Joueur("Carla");
             Joueur joueur4 = new Joueur("Donald");
+            Joueur joueur5 = new Joueur("Elsa");
+            Joueur joueur6 = new Joueur("Fabienne");
+            Joueur joueur7 = new Joueur("Georges");
+            Joueur joueur8 = new Joueur("Hubert");
+            Joueur joueur9 = new Joueur("Isabelle");
+            Joueur joueur10 = new Joueur("Juliette");
 
             joueurs.add(joueur1);
             joueurs.add(joueur2);
             joueurs.add(joueur3);
             joueurs.add(joueur4);
-
+            /*
+            joueurs.add(joueur5);
+            joueurs.add(joueur6);
+            joueurs.add(joueur7);
+            joueurs.add(joueur8);
+            joueurs.add(joueur9);
+            joueurs.add(joueur10);
+             */
     }
 
     private  static void getMainScoreName(ArrayList<Carte> main) {
